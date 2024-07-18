@@ -1,10 +1,9 @@
-import Home from "./pages/Home";
+import Layout from "./components/Layout/Layout";
 
-function App() {
-  
+const App = () => {
   return (
     <>
-    <Home />
+      <Layout />
     </>
   )
 }
