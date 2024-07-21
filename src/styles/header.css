@@ -40,7 +40,6 @@
 }
 
 .menu a {
-    text-decoration: none;
     color: #03400C;
     font-weight: 600;
 }
@@ -54,4 +53,10 @@
 
 .cart__icon:hover {
     cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+  .navigation{
+    display: none;
+  }
 }
