@@ -1,5 +1,5 @@
-import Helment from '../components/Helmet/Helment';
-import { Container } from 'react-bootstrap';
+import Helment from "../components/Helmet/Helment";
+import { Container } from "react-bootstrap";
 
 const Cart = () => {
   return (
