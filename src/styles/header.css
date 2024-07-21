@@ -42,6 +42,7 @@
 .menu a {
     color: #03400C;
     font-weight: 600;
+    text-decoration: none;
 }
 
 .menu a:hover {
