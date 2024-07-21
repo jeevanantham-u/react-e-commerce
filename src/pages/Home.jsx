@@ -1,5 +1,5 @@
 import { Row, Col, Container, Button } from "react-bootstrap";
-import Helment from "../components/Helmet/Helment"
+import Helmet from "../components/Helmet/Helmet"
 import heroImage from "../assets/images/undraw_electricity_k2ft (2).svg"
 
 import '../styles/hero-section.css'
@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 const Home = () => {
     return (
         <>
-            <Helment title="Home">
+            <Helmet title="Home">
                 <Container>
                     <Row>
                         <Col lg="6" md="12">
@@ -29,7 +29,7 @@ const Home = () => {
                         </Col>
                     </Row>
                 </Container>
-            </Helment>
+            </Helmet>
         </>
     )
 }

@@ -1,11 +1,11 @@
 import React from 'react'
-import Helment from '../components/Helmet/Helment'
+import Helmet from '../components/Helmet/Helmet'
 
 const Checkout = () => {
   return (
-    <Helment title='Checkout'>
+    <Helmet title='Checkout'>
     <div>Checkout</div>
-    </Helment>
+    </Helmet>
   )
 }
 

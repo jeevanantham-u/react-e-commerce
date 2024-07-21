@@ -1,14 +1,14 @@
-import Helment from "../components/Helmet/Helment";
+import Helmet from "../components/Helmet/Helmet";
 import { Container } from "react-bootstrap";
 
 const Cart = () => {
   return (
-    <Helment title='Cart'>
+    <Helmet title='Cart'>
       <Container>
         <div>cart</div>
       </Container>
-    </Helment>
+    </Helmet>
   )
 }
 
-export default Cart;
+export default Cart

@@ -1,10 +1,10 @@
-import Helment from "../components/Helmet/Helment"
+import Helmet from "../components/Helmet/Helmet"
 
 const Contact = () => {
     return (
-        <Helment title='Contact'>
+        <Helmet title='Contact'>
             <div>Contact</div>
-        </Helment>
+        </Helmet>
     )
 }
 

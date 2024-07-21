@@ -1,10 +1,10 @@
-import Helment from "../components/Helmet/Helment";
+import Helmet from "../components/Helmet/Helmet";
 
 const BatteriesDetails = () => {
     return (
-        <Helment title='Batteries-Detailes'>
+        <Helmet title='Batteries-Detailes'>
             <div>Batteries Details</div>
-        </Helment>
+        </Helmet>
     );
 }
 
