@@ -6,6 +6,7 @@ import BatteriesDetails from "../pages/BatteriesDetails";
 import Battaeries from "../pages/Batteries";
 import Checkout from "../pages/Checkout";
 import Contact from "../pages/Contact";
+
 export const routers = createBrowserRouter([
   {
     path: "/",
