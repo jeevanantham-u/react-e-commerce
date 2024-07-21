@@ -1,8 +1,7 @@
-import React from 'react'
 import Helment from '../components/Helmet/Helment';
 import { Container } from 'react-bootstrap';
 
-const cart = () => {
+const Cart = () => {
   return (
     <Helment title='Cart'>
       <Container>
@@ -12,4 +11,4 @@ const cart = () => {
   )
 }
 
-export default cart;
+export default Cart;
