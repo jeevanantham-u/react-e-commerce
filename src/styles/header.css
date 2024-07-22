@@ -52,6 +52,10 @@
   color: #41BF49;
 }
 
+.cart__icon {
+  font-size: 1.5rem;
+}
+
 .cart__icon:hover {
     cursor: pointer;
 }
