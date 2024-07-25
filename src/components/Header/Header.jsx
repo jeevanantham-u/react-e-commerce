@@ -59,8 +59,8 @@ const Header = () => {
                 <NavLink
                   to={item.path}
                   key={i}
-                  className={(navClass) =>
-                    navClass.isActive ? "active__menu" : ""
+                  className={({ isActive, isPending }) =>
+                    isPending ? "pending" : isActive ? "active" : ""
                   }
                 >
                   {item.display}
@@ -70,7 +70,7 @@ const Header = () => {
           </div>
           <div className='nav__right'>
             <span className="cart__icon">
-            <i className="ri-shopping-basket-line"></i>
+              <i className="ri-shopping-basket-line"></i>
             </span>
           </div>
         </div>

@@ -48,7 +48,7 @@
 .menu a:hover {
     color: #41BF49;
 }
-.active__menu {
+.menu a.active {
   color: #41BF49;
 }
 

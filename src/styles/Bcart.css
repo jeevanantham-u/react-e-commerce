@@ -1,0 +1,30 @@
+/* .container {
+    font-size: 22px;
+} */
+
+.cart__page-btn {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 2rem 0;
+}
+
+.cart__subtotal {
+    font-size: 2rem;
+    color: #297334;
+}
+
+.cart-headings{
+    font-weight: 600;
+}
+.addTOCart__btn {
+    border: none;
+    padding: 7px 25px;
+    background: #297334;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+
+.addTOCart__btn a {
+    text-decoration: none;
+    color: #f2f2f2;
+  }

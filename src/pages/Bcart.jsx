@@ -1,14 +1,63 @@
 import Helmet from "../components/Helmet/Helmet";
-import { Container } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
+import CommonSection from "../components/UI/common-section/CommonSection";
+import { Link } from "react-router-dom";
+import "../styles/Bcart.css"
 
 const Cart = () => {
+  const a = true;
   return (
     <Helmet title='Cart'>
-      <Container>
-        <div>cart</div>
-      </Container>
+      <CommonSection title='Your Cart' />
+      <section>
+        <Container>
+          <Row>
+            <Col lg="12">
+              {a === true ? <h5 className="text-center cart-headings">Your cart is empty</h5>
+
+                : <>
+                  <h5 className="mb-5 cart-headings">Summary of your order</h5>
+                  <table className="table table-borderless mb-5 align-middle">
+                    <tbody>
+                      <Tr />
+                    </tbody>
+                  </table>
+                </>}
+
+              <div className="mt-4">
+                <h6 className="cart-headings">
+                  Subtotal:
+                  <span className="cart__subtotal">₹100</span>
+                </h6>
+                <p>Taxes and shipping will calculate at checkout</p>
+                <div className="cart__page-btn">
+                  <button className="addTOCart__btn me-4">
+                    <Link to="/batteries">Continue Shopping</Link>
+                  </button>
+                  <button className="addTOCart__btn">
+                    <Link to="/checkout">Proceed to checkout</Link>
+                  </button>
+                </div>
+              </div>
+            </Col>
+          </Row>
+        </Container>
+      </section>
     </Helmet>
   )
+}
+
+const Tr = () => {
+  return (
+    <tr>
+      <td className="text-center">
+        <img src="https://placehold.co/400" width="100px" />
+      </td>
+      <td className="text-center">Coin Cell    u,mim</td>
+      <td className="text-center">₹100</td>
+      <td className="text-center">1px</td>
+    </tr>
+  );
 }
 
 export default Cart
