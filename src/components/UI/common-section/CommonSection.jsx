@@ -5,7 +5,7 @@ const CommonSection = (props) => {
   return (
     <section className="common__section">
         <Container>
-            <h2 className="text-white">{props.title}</h2>
+            <h2 className="text-white common__title">{props.title}</h2>
         </Container>
     </section>
   )

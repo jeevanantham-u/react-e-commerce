@@ -13,8 +13,7 @@ const Cart = () => {
         <Container>
           <Row>
             <Col lg="12">
-              {a === true ? <h5 className="text-center cart-headings">Your cart is empty</h5>
-
+              {a === 0 ? <h5 className="text-center cart-headings">Your cart is empty</h5>
                 : <>
                   <h5 className="mb-5 cart-headings">Summary of your order</h5>
                   <table className="table table-borderless mb-5 align-middle">
@@ -53,9 +52,9 @@ const Tr = () => {
       <td className="text-center">
         <img src="https://placehold.co/400" width="100px" />
       </td>
-      <td className="text-center">Coin Cell    u,mim</td>
-      <td className="text-center">₹100</td>
-      <td className="text-center">1px</td>
+      <td className="text-center td-data">Coin Cell    u,mim</td>
+      <td className="text-center td-data">₹100</td>
+      <td className="text-center td-data">1px</td>
     </tr>
   );
 }

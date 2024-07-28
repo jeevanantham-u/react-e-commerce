@@ -1,7 +1,6 @@
-/* .container {
-    font-size: 22px;
-} */
-
+.td-data{
+    font-size: 1.3em;
+}
 .cart__page-btn {
     display: flex;
     flex-wrap: nowrap;

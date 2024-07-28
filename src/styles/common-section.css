@@ -1,4 +1,12 @@
 .common__section {
-    background: url('../assets/images/dry-battery-productimg-300x265.jpg') no-repeat center ;
-    background-size: cover;
+  background: url('../assets/images/battery-4800010_1280.jpg') no-repeat center;
+  background-size: cover;
+  filter: hue-rotate(95deg);
+}
+
+.common__title {
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  font-size: 3em;
+  font-weight: 700;
 }

@@ -28,6 +28,7 @@ const Footer = () => {
           </Col>
         </Row>
       </Container>
+      <p className="text-center p-5 fw-bolder">Copyright@AatralESP-2024</p>
     </footer>
 
   )
