@@ -52,7 +52,7 @@ const Tr = () => {
       <td className="text-center">
         <img src="https://placehold.co/400" width="100px" />
       </td>
-      <td className="text-center td-data">Coin Cell    u,mim</td>
+      <td className="text-center td-data">Coin Cell  AatralXXX</td>
       <td className="text-center td-data">₹100</td>
       <td className="text-center td-data">1px</td>
     </tr>

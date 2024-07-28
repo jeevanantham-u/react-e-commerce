@@ -6,10 +6,10 @@
 }
 
 @keyframes header-scroll {
-    from {
+    0% {
       top: -100px;
     }
-    to {
+    100% {
       top: 0px;
     }
   }
@@ -22,7 +22,7 @@
     z-index: 99999;
     box-shadow: 5px 5px 15px -5px #d7d6d6;
     animation-name: header-scroll;
-    animation-duration: 0.5s;
+    animation-duration: 2s;
   }
   
 

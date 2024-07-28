@@ -1,0 +1,17 @@
+.product__card {
+    border: 1px solid #9eeba3;
+    padding: 30px;
+}
+
+.product__content {
+    text-align: center;
+}
+
+.addTOCART__btn {
+    border: none;
+    padding: 7px 25px;
+    background: #297334;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
