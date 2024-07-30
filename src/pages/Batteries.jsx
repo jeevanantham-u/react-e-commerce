@@ -7,7 +7,7 @@ import products from '../assets/Fake-product-images/products';
 import "../styles/paginate.css"
 
 const Batteries = () => {
-  const [pageNumber, setPageNumber] = useState();
+  const [pageNumber, setPageNumber] = useState(0);
 
   const searchedProduct = products;
 
@@ -28,42 +28,18 @@ const Batteries = () => {
     <Helmet title='All-Batteries'>
       <Container>
         <Row>
-          <Col
-            lg="3"
-            md="4"
-            sm="6"
-            xs="6"
-            className="mb-4 mt-4"
-          >
-            <ProductCard />
-          </Col>
-          <Col
-            lg="3"
-            md="4"
-            sm="6"
-            xs="6"
-            className="mb-4 mt-4"
-          >
-            <ProductCard />
-          </Col>
-          <Col
-            lg="3"
-            md="4"
-            sm="6"
-            xs="6"
-            className="mb-4 mt-4"
-          >
-            <ProductCard />
-          </Col>
-          <Col
-            lg="3"
-            md="4"
-            sm="6"
-            xs="6"
-            className="mb-4 mt-4"
-          >
-            <ProductCard />
-          </Col>
+          {displayPage.map((item) => (
+              <Col
+                lg="3"
+                md="4"
+                sm="6"
+                xs="6"
+                key={item.id}
+                className="mb-4 mt-4"
+              >
+                <ProductCard item={item}/>
+              </Col>
+          ))}
           <div>
             <ReactPaginate
               pageCount={pageCount}
